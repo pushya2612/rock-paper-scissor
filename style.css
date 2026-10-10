@@ -1,0 +1,173 @@
+body{
+        background-color: #0a0e1a;
+
+        background-image:
+        radial-gradient(
+            circle at 15% 15%,
+            rgba(99, 102, 241, 0.15),
+            transparent 45%
+        ),
+        radial-gradient(
+            circle at 85% 85%,
+            rgba(236, 72, 153, 0.12),
+            transparent 45%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(6, 182, 212, 0.08),
+            transparent 60%
+        );
+
+        background-attachment: fixed;
+}
+#heading1{
+    text-align: center;
+    color: rgb(3, 177, 220);
+    font-size: 50px;
+    font-family: 'Cooper Black';
+    padding-top: 20px;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-color: aliceblue;
+
+}
+#button-container{
+    background-color: transparent;
+    justify-content: center;
+    font-size: 500%;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-style: solid;
+    padding: none;
+    cursor: pointer;
+}
+#calculatescore{
+    text-align: center;
+    color: rgb(213, 238, 245);
+    font-size: 30px;
+    font-family: 'Cooper Black';
+    margin-top: 20px;
+    border-color: aliceblue;
+    border-style: solid;
+    padding: 10px;
+    margin: 1;
+}
+#scorecard{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-style: solid;
+    border-width: 6px;
+    padding: 30px;
+    border-radius: 50px;
+    width: 200px;
+    height: 100px;
+}
+
+#wins-span{
+    font-weight: bold;
+    color: rgb(114, 245, 114);
+    font-family: 'Cooper Black';
+    font-size: 30px;
+}
+#losses-span{
+    font-weight: bold;
+    color: rgb(255, 135, 135);
+    font-family: 'Cooper Black';
+    font-size: 30px;
+}
+#ties-span{
+    font-weight: bold;
+    color: rgb(119, 119, 226);
+    font-family: 'Cooper Black';
+    font-size: 30px;
+}
+.score{
+    font-weight: bold;
+    font-size: 44px;   
+    padding: 20px;
+    color: rgb(254, 250, 147);
+}
+#whitespace{
+    margin-top: 50px;
+}
+#move{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.symbol{
+    font-size: 500%;
+    padding: 10px;
+}
+#player{
+    font-weight: bold;
+    color: rgb(242, 121, 242);
+    font-family: 'Cooper Black';
+    font-size: 20px;
+    padding: none;
+}
+.move-words{
+    font-weight: bold;
+    color: rgb(124, 241, 196);
+    font-family: 'Cooper Black';
+    font-size: 20px;
+    padding: none;
+}
+#section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: white;
+    background-color: rgba(255, 38, 0, 0.638);
+    border-style: solid;
+    border-width: 3px;
+    padding: 30px;
+    border-radius: 50px;
+    height: 150px;
+    width:300px;
+    margin: 20px;
+    margin-left: 50px;
+    cursor: pointer;   
+}
+#reset-button{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Cooper Black';
+    color:rgb(235, 235, 235);
+    text-align: center;
+    align-items: center;
+  
+}
+#section1:hover{
+    background-color: rgb(242, 150, 100);
+    transform: scale(1.1);
+}

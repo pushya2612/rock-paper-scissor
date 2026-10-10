@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>ROCK PAPER SCISSOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script src="script.js" defer>
+    </script>
+    <body>
+        <h1 id="heading1">
+            ROCK PAPER SCISSOR
+        </h1>
+        <div id="whitespace"></div>
+        <div id="buttons">
+            <button onclick=" playgame('rock') " id="button-container">
+                ✊
+            </button>
+
+            <button onclick=" playgame('paper') " id="button-container">
+                ✋
+            </button>
+
+            <button onclick=" playgame('scissor') " id="button-container">
+                ✌️
+            </button>
+        </div>
+        <div id="whitespace"></div>
+                <div id="move">
+            <div id="content">
+                <span id="player">Player Move</span>
+                <span id="playermove" class="symbol">⚡</span>
+                <span id="player-instruction" class="move-words">READY</span>
+            </div>
+            <div id="content">
+                <span id="player">Computer Move</span>
+                <span id="computermove" class="symbol">⚡</span>
+                <span id="computer-instruction" class="move-words">READY</span>
+            </div>
+        </div>
+        <div id="whitespace"></div>
+        <div id="scorecard">
+            <div id="section">
+                <span id="wins-span" >Wins</span>
+                <span id="no-wins" class="score">0</span>
+            </div>
+            <div id="section">
+                <span id="losses-span" >Losses</span>
+                <span id="no-losses" class="score">0</span>
+            </div>
+            <div id="section">
+                <span id="ties-span" >Ties</span>
+                <span id="no-ties" class="score">0</span>
+            </div>
+                <button onclick="resetscore()" id="section1" style=""><span id="reset-button"> Reset Score</span></button>
+        </div>
+
+        
+    </body>
+</html>
